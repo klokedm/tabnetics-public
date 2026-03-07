@@ -1,0 +1,1547 @@
+{
+  "build_params": {
+    "feature_cap": 100000,
+    "sample_cap": 100000,
+    "seed": 11
+  },
+  "records": [
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "openml:{'name': 'arcene', 'version': 1}",
+      "dataset_id": "arcene_nips03",
+      "meta_features": {
+        "class_balance_entropy": 0.9895875212220555,
+        "class_balance_ratio": 1.2727272727272727,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.4927999999999999,
+        "correlation_spectrum_decay": 0.00021306289419216614,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 99470.47678391961,
+        "n": 200.0,
+        "p": 10000.0,
+        "p_over_n": 50.0
+      },
+      "n_classes": 2,
+      "n_features": 10000,
+      "n_samples": 200,
+      "profile_scores": {
+        "a_control": 0.7800224466891134,
+        "d_default": 0.7662738496071829,
+        "v16_multiomics": 0.8647586980920314,
+        "v16_ref": 0.7662738496071829
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "openml:{'name': 'Breast', 'version': 3}",
+      "dataset_id": "breast_vantveer",
+      "meta_features": {
+        "class_balance_entropy": 0.998082507968892,
+        "class_balance_ratio": 1.108695652173913,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.49867148474864487,
+        "correlation_spectrum_decay": 0.0001569791634001412,
+        "heaping_fraction": 0.011968465340468118,
+        "max_feature_variance": 1174.3255872570876,
+        "n": 97.0,
+        "p": 24481.0,
+        "p_over_n": 252.38144329896906
+      },
+      "n_classes": 2,
+      "n_features": 24481,
+      "n_samples": 97,
+      "profile_scores": {
+        "a_control": 0.6677890011223345,
+        "d_default": 0.6290684624017957,
+        "v16_multiomics": 0.6265432098765432,
+        "v16_ref": 0.64552936775159
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "mat_url:https://raw.githubusercontent.com/jundongl/scikit-feature/master/skfeature/data/Carcinom.mat",
+      "dataset_id": "carcinom_11class",
+      "meta_features": {
+        "class_balance_entropy": 0.9492372571620671,
+        "class_balance_ratio": 4.5,
+        "class_count": 11.0,
+        "class_gini_impurity": 0.8871713568503105,
+        "correlation_spectrum_decay": 0.00014670085514165257,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 1.0921835442303252,
+        "n": 174.0,
+        "p": 9182.0,
+        "p_over_n": 52.770114942528735
+      },
+      "n_classes": 11,
+      "n_features": 9182,
+      "n_samples": 174,
+      "profile_scores": {
+        "a_control": 0.9353535353535354,
+        "d_default": 0.9353535353535354,
+        "v16_multiomics": 0.9127946127946127,
+        "v16_ref": 0.8404040404040405
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "mat_url:https://jundongl.github.io/scikit-feature/OLD/datasets/CLL-SUB-111.mat",
+      "dataset_id": "cll_sub_111",
+      "meta_features": {
+        "class_balance_entropy": 0.8623385225948875,
+        "class_balance_ratio": 4.636363636363637,
+        "class_count": 3.0,
+        "class_gini_impurity": 0.5842058274490707,
+        "correlation_spectrum_decay": 0.00014250130724274086,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 26899420621.99893,
+        "n": 111.0,
+        "p": 11340.0,
+        "p_over_n": 102.16216216216216
+      },
+      "n_classes": 3,
+      "n_features": 11340,
+      "n_samples": 111,
+      "profile_scores": {
+        "a_control": 0.705050505050505,
+        "d_default": 0.7663299663299663,
+        "v16_multiomics": 0.8338383838383838,
+        "v16_ref": 0.7627384960718294
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "openml:{'name': 'CNS', 'version': 1}",
+      "dataset_id": "cns_pomeroy",
+      "meta_features": {
+        "class_balance_entropy": 0.9340680553754911,
+        "class_balance_ratio": 1.8571428571428572,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.45499999999999996,
+        "correlation_spectrum_decay": 0.00013951470355775668,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 1233089047.5398307,
+        "n": 60.0,
+        "p": 7129.0,
+        "p_over_n": 118.81666666666666
+      },
+      "n_classes": 2,
+      "n_features": 7129,
+      "n_samples": 60,
+      "profile_scores": {
+        "a_control": 0.6527777777777778,
+        "d_default": 0.5833333333333334,
+        "v16_multiomics": 0.8055555555555556,
+        "v16_ref": 0.5810185185185186
+      }
+    },
+    {
+      "best_profile": "v16_ref",
+      "data_source": "openml:{'name': 'colon', 'version': 1}",
+      "dataset_id": "colon_alon",
+      "meta_features": {
+        "class_balance_entropy": 0.9383153522334069,
+        "class_balance_ratio": 1.8181818181818181,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.4578563995837669,
+        "correlation_spectrum_decay": 0.00013000041159326757,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 1.0000021751437536,
+        "n": 62.0,
+        "p": 2000.0,
+        "p_over_n": 32.25806451612903
+      },
+      "n_classes": 2,
+      "n_features": 2000,
+      "n_samples": 62,
+      "profile_scores": {
+        "a_control": 0.8319444444444444,
+        "d_default": 0.8361111111111111,
+        "v16_multiomics": 0.8729166666666666,
+        "v16_ref": 0.8837962962962962
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "synthetic_fallback",
+      "dataset_id": "cumida_brain_gse50161",
+      "meta_features": {
+        "class_balance_entropy": 0.889023024796833,
+        "class_balance_ratio": 6.285714285714286,
+        "class_count": 4.0,
+        "class_gini_impurity": 0.6832990397805212,
+        "correlation_spectrum_decay": 0.00013452558893244614,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 269.5438066047451,
+        "n": 108.0,
+        "p": 54675.0,
+        "p_over_n": 506.25
+      },
+      "n_classes": 4,
+      "n_features": 54675,
+      "n_samples": 108,
+      "profile_scores": {
+        "a_control": 0.9470017636684305,
+        "d_default": 0.9390652557319223,
+        "v16_multiomics": 0.9073192239858906,
+        "v16_ref": 0.915461493239271
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "manual_npz:train_data/extended/cumida_colorectal_gse44861.npz",
+      "dataset_id": "cumida_colorectal_gse44861",
+      "meta_features": {
+        "class_balance_entropy": 0.9090221560878149,
+        "class_balance_ratio": 2.0833333333333335,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.43827611395178967,
+        "correlation_spectrum_decay": 0.00013459636334838072,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 9.626512831539813,
+        "n": 111.0,
+        "p": 22277.0,
+        "p_over_n": 200.6936936936937
+      },
+      "n_classes": 2,
+      "n_features": 22277,
+      "n_samples": 111,
+      "profile_scores": {
+        "a_control": 0.875,
+        "d_default": 0.8120039682539683,
+        "v16_multiomics": 0.7926587301587302,
+        "v16_ref": 0.7961309523809524
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "manual_npz:train_data/extended/cumida_gastric_gse54129.npz",
+      "dataset_id": "cumida_gastric_gse54129",
+      "meta_features": {
+        "class_balance_entropy": 0.6321302781219706,
+        "class_balance_ratio": 5.285714285714286,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.2675619834710743,
+        "correlation_spectrum_decay": 0.00013781236681782678,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 20.785501692399095,
+        "n": 132.0,
+        "p": 54675.0,
+        "p_over_n": 414.20454545454544
+      },
+      "n_classes": 2,
+      "n_features": 54675,
+      "n_samples": 132,
+      "profile_scores": {
+        "a_control": 1.0,
+        "d_default": 1.0,
+        "v16_multiomics": 1.0,
+        "v16_ref": 1.0
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "synthetic_fallback",
+      "dataset_id": "cumida_leukemia_subtypes",
+      "meta_features": {
+        "class_balance_entropy": 0.9534741837779023,
+        "class_balance_ratio": 3.8823529411764706,
+        "class_count": 7.0,
+        "class_gini_impurity": 0.831904357847545,
+        "correlation_spectrum_decay": 0.00013424890480643565,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 580.8921160121989,
+        "n": 281.0,
+        "p": 22283.0,
+        "p_over_n": 79.29893238434164
+      },
+      "n_classes": 7,
+      "n_features": 22283,
+      "n_samples": 281,
+      "profile_scores": {
+        "a_control": 0.8220699054032387,
+        "d_default": 0.8220699054032387,
+        "v16_multiomics": 0.7886604136604136,
+        "v16_ref": 0.7783095505317726
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "manual_npz:train_data/extended/cumida_renal_gse53757.npz",
+      "dataset_id": "cumida_renal_gse53757",
+      "meta_features": {
+        "class_balance_entropy": 1.0,
+        "class_balance_ratio": 1.0,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.5,
+        "correlation_spectrum_decay": 0.00015065769645822397,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 1034371826.9101052,
+        "n": 144.0,
+        "p": 54675.0,
+        "p_over_n": 379.6875
+      },
+      "n_classes": 2,
+      "n_features": 54675,
+      "n_samples": 144,
+      "profile_scores": {
+        "a_control": 0.9653439153439154,
+        "d_default": 0.9574074074074075,
+        "v16_multiomics": 0.9595238095238097,
+        "v16_ref": 0.9601410934744269
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "openml:{'name': 'DLBCL', 'version': 1}",
+      "dataset_id": "dlbcl_shipp",
+      "meta_features": {
+        "class_balance_entropy": 0.8060914696192221,
+        "class_balance_ratio": 3.0526315789473686,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.3717321639399561,
+        "correlation_spectrum_decay": 0.00013724372866352248,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 174157854.49760765,
+        "n": 77.0,
+        "p": 5469.0,
+        "p_over_n": 71.02597402597402
+      },
+      "n_classes": 2,
+      "n_features": 5469,
+      "n_samples": 77,
+      "profile_scores": {
+        "a_control": 0.875,
+        "d_default": 0.8564814814814814,
+        "v16_multiomics": 0.8472222222222221,
+        "v16_ref": 0.8626543209876543
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "synthetic_fallback",
+      "dataset_id": "dorothea_nips03",
+      "meta_features": {
+        "class_balance_entropy": 0.5293608652873644,
+        "class_balance_ratio": 7.333333333333333,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.21120000000000005,
+        "correlation_spectrum_decay": 0.00013561648761970375,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 398.5507567002722,
+        "n": 1150.0,
+        "p": 100000.0,
+        "p_over_n": 86.95652173913044
+      },
+      "n_classes": 2,
+      "n_features": 100000,
+      "n_samples": 1150,
+      "profile_scores": {
+        "a_control": 0.6484420928865373,
+        "d_default": 0.7534513166697075,
+        "v16_multiomics": 0.9969135802469136,
+        "v16_ref": 0.6432321757992256
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "openml:{'name': 'GCM', 'version': 1}",
+      "dataset_id": "gcm_ramaswamy",
+      "meta_features": {
+        "class_balance_entropy": 0.9710180472712665,
+        "class_balance_ratio": 3.0,
+        "class_count": 14.0,
+        "class_gini_impurity": 0.9154570637119114,
+        "correlation_spectrum_decay": 0.00017305044940809362,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 68991728.36858813,
+        "n": 190.0,
+        "p": 16063.0,
+        "p_over_n": 84.5421052631579
+      },
+      "n_classes": 14,
+      "n_features": 16063,
+      "n_samples": 190,
+      "profile_scores": {
+        "a_control": 0.564021164021164,
+        "d_default": 0.564021164021164,
+        "v16_multiomics": 0.5332010582010582,
+        "v16_ref": 0.5095238095238095
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "openml:{'name': 'GLI', 'version': 1}",
+      "dataset_id": "gli_85",
+      "meta_features": {
+        "class_balance_entropy": 0.8883630233845604,
+        "class_balance_ratio": 2.269230769230769,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.42463667820069206,
+        "correlation_spectrum_decay": 0.0001484489544146743,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 2338352033.383867,
+        "n": 85.0,
+        "p": 22283.0,
+        "p_over_n": 262.15294117647056
+      },
+      "n_classes": 2,
+      "n_features": 22283,
+      "n_samples": 85,
+      "profile_scores": {
+        "a_control": 0.8787037037037037,
+        "d_default": 0.8425925925925926,
+        "v16_multiomics": 0.8462962962962963,
+        "v16_ref": 0.8512345679012346
+      }
+    },
+    {
+      "best_profile": "v16_ref",
+      "data_source": "mat_url:https://raw.githubusercontent.com/jundongl/scikit-feature/master/skfeature/data/GLIOMA.mat",
+      "dataset_id": "glioma_50_4class",
+      "meta_features": {
+        "class_balance_entropy": 0.9733202828259231,
+        "class_balance_ratio": 2.142857142857143,
+        "class_count": 4.0,
+        "class_gini_impurity": 0.7336,
+        "correlation_spectrum_decay": 9.268071997731408e-05,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 0.5847620836358726,
+        "n": 50.0,
+        "p": 4434.0,
+        "p_over_n": 88.68
+      },
+      "n_classes": 4,
+      "n_features": 4434,
+      "n_samples": 50,
+      "profile_scores": {
+        "a_control": 0.6759259259259259,
+        "d_default": 0.6759259259259259,
+        "v16_multiomics": 0.6527777777777777,
+        "v16_ref": 0.6851851851851852
+      }
+    },
+    {
+      "best_profile": "d_default",
+      "data_source": "tab_url:https://file.biolab.si/biolab/supp/bi-cancer/projections/_datasets/MLL.tab",
+      "dataset_id": "leukemia_1_72_3class",
+      "meta_features": {
+        "class_balance_entropy": 0.991532399729883,
+        "class_balance_ratio": 1.4,
+        "class_count": 3.0,
+        "class_gini_impurity": 0.6604938271604939,
+        "correlation_spectrum_decay": 0.00014169261808745582,
+        "heaping_fraction": 0.10444426713476422,
+        "max_feature_variance": 196689697.7394367,
+        "n": 72.0,
+        "p": 12533.0,
+        "p_over_n": 174.06944444444446
+      },
+      "n_classes": 3,
+      "n_features": 12533,
+      "n_samples": 72,
+      "profile_scores": {
+        "a_control": 0.9308641975308642,
+        "d_default": 0.9493827160493827,
+        "v16_multiomics": 0.9419753086419753,
+        "v16_ref": 0.931275720164609
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "openml:{'name': 'leukemia', 'version': 1}",
+      "dataset_id": "leukemia_golub",
+      "meta_features": {
+        "class_balance_entropy": 0.9315627684809641,
+        "class_balance_ratio": 1.88,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.45331790123456794,
+        "correlation_spectrum_decay": 0.0001461035940276249,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 252605135.8214006,
+        "n": 72.0,
+        "p": 7129.0,
+        "p_over_n": 99.01388888888889
+      },
+      "n_classes": 2,
+      "n_features": 7129,
+      "n_samples": 72,
+      "profile_scores": {
+        "a_control": 0.9500000000000001,
+        "d_default": 0.9388888888888888,
+        "v16_multiomics": 0.9555555555555556,
+        "v16_ref": 0.9444444444444445
+      }
+    },
+    {
+      "best_profile": "v16_ref",
+      "data_source": "openml:{'name': 'Lymphoma-3', 'version': 1}",
+      "dataset_id": "lymphoma_3",
+      "meta_features": {
+        "class_balance_entropy": 0.7481592652673374,
+        "class_balance_ratio": 5.111111111111111,
+        "class_count": 3.0,
+        "class_gini_impurity": 0.4678604224058769,
+        "correlation_spectrum_decay": 0.0010815669996238426,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 6.787194522144523,
+        "n": 66.0,
+        "p": 4026.0,
+        "p_over_n": 61.0
+      },
+      "n_classes": 3,
+      "n_features": 4026,
+      "n_samples": 66,
+      "profile_scores": {
+        "a_control": 0.9555555555555555,
+        "d_default": 0.9592592592592593,
+        "v16_multiomics": 0.9796296296296296,
+        "v16_ref": 0.9888888888888889
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "openml:{'name': 'Lymphoma-9', 'version': 1}",
+      "dataset_id": "lymphoma_9",
+      "meta_features": {
+        "class_balance_entropy": 0.7730553765995088,
+        "class_balance_ratio": 23.0,
+        "class_count": 9.0,
+        "class_gini_impurity": 0.7272135416666666,
+        "correlation_spectrum_decay": 0.0030729821501865404,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 6.137572587719299,
+        "n": 96.0,
+        "p": 4026.0,
+        "p_over_n": 41.9375
+      },
+      "n_classes": 9,
+      "n_features": 4026,
+      "n_samples": 96,
+      "profile_scores": {
+        "a_control": 0.8513888888888889,
+        "d_default": 0.8402777777777778,
+        "v16_multiomics": 0.8902777777777777,
+        "v16_ref": 0.8416666666666667
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "openml:{'name': 'madelon', 'version': 1}",
+      "dataset_id": "madelon_nips03",
+      "meta_features": {
+        "class_balance_entropy": 1.0,
+        "class_balance_ratio": 1.0,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.5,
+        "correlation_spectrum_decay": 0.05136891460038341,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 17860.002829342644,
+        "n": 2600.0,
+        "p": 500.0,
+        "p_over_n": 0.19230769230769232
+      },
+      "n_classes": 2,
+      "n_features": 500,
+      "n_samples": 2600,
+      "profile_scores": {
+        "a_control": 0.5664529914529914,
+        "d_default": 0.6487179487179486,
+        "v16_multiomics": 0.6519230769230769,
+        "v16_ref": 0.5928774928774928
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "rdatasets:ISLR:NCI60",
+      "dataset_id": "nci60_strict_holdout",
+      "meta_features": {
+        "class_balance_entropy": 0.8987915949261174,
+        "class_balance_ratio": 9.0,
+        "class_count": 14.0,
+        "class_gini_impurity": 0.89501953125,
+        "correlation_spectrum_decay": 0.00013294807522496471,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 11.722255037312094,
+        "n": 64.0,
+        "p": 6830.0,
+        "p_over_n": 106.71875
+      },
+      "n_classes": 14,
+      "n_features": 6830,
+      "n_samples": 64,
+      "profile_scores": {
+        "a_control": 0.39598765432098765,
+        "d_default": 0.3811728395061728,
+        "v16_multiomics": 0.4389660493827161,
+        "v16_ref": 0.4246913580246913
+      }
+    },
+    {
+      "best_profile": "v16_ref",
+      "data_source": "openml:{'name': '9_Tumors', 'version': 1}",
+      "dataset_id": "nci9_60_9class",
+      "meta_features": {
+        "class_balance_entropy": 0.9763811508245539,
+        "class_balance_ratio": 4.5,
+        "class_count": 9.0,
+        "class_gini_impurity": 0.8794444444444445,
+        "correlation_spectrum_decay": 0.000149195266047602,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 34535184.81666667,
+        "n": 60.0,
+        "p": 5726.0,
+        "p_over_n": 95.43333333333334
+      },
+      "n_classes": 9,
+      "n_features": 5726,
+      "n_samples": 60,
+      "profile_scores": {
+        "a_control": 0.4166666666666667,
+        "d_default": 0.4583333333333333,
+        "v16_multiomics": 0.4652777777777778,
+        "v16_ref": 0.4930555555555556
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "rdatasets:ISLR:NCI60:proxy_61x5244_8class",
+      "dataset_id": "nci_61_8class",
+      "meta_features": {
+        "class_balance_entropy": 0.9913448230558836,
+        "class_balance_ratio": 1.8,
+        "class_count": 8.0,
+        "class_gini_impurity": 0.8707336737436173,
+        "correlation_spectrum_decay": 0.00013156621272497677,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 11.94207458150471,
+        "n": 61.0,
+        "p": 5244.0,
+        "p_over_n": 85.9672131147541
+      },
+      "n_classes": 8,
+      "n_features": 5244,
+      "n_samples": 61,
+      "profile_scores": {
+        "a_control": 0.8055555555555556,
+        "d_default": 0.8055555555555556,
+        "v16_multiomics": 0.6597222222222222,
+        "v16_ref": 0.638888888888889
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "openml:{'name': 'ovarian', 'version': 1}",
+      "dataset_id": "ovarian_petricoin",
+      "meta_features": {
+        "class_balance_entropy": 0.9424204018666794,
+        "class_balance_ratio": 1.7802197802197801,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.4606227249293069,
+        "correlation_spectrum_decay": 0.000133194254972081,
+        "heaping_fraction": 0.00019796753332453477,
+        "max_feature_variance": 0.07441142092167741,
+        "n": 253.0,
+        "p": 15154.0,
+        "p_over_n": 59.89723320158103
+      },
+      "n_classes": 2,
+      "n_features": 15154,
+      "n_samples": 253,
+      "profile_scores": {
+        "a_control": 0.995230078563412,
+        "d_default": 0.995230078563412,
+        "v16_multiomics": 0.995230078563412,
+        "v16_ref": 0.995230078563412
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "openml:{'name': 'prostate', 'version': 1}",
+      "dataset_id": "prostate_singh",
+      "meta_features": {
+        "class_balance_entropy": 0.9997226475394071,
+        "class_balance_ratio": 1.04,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.49980776624375245,
+        "correlation_spectrum_decay": 0.00012872372103119278,
+        "heaping_fraction": 0.09634920634920635,
+        "max_feature_variance": 8031112.4521656,
+        "n": 102.0,
+        "p": 12600.0,
+        "p_over_n": 123.52941176470588
+      },
+      "n_classes": 2,
+      "n_features": 12600,
+      "n_samples": 102,
+      "profile_scores": {
+        "a_control": 0.9090909090909091,
+        "d_default": 0.9207070707070708,
+        "v16_multiomics": 0.939141414141414,
+        "v16_ref": 0.9276094276094277
+      }
+    },
+    {
+      "best_profile": "v16_multiomics",
+      "data_source": "openml:{'name': 'SRBCT', 'version': 1}",
+      "dataset_id": "srbct_khan",
+      "meta_features": {
+        "class_balance_entropy": 0.9580603696852722,
+        "class_balance_ratio": 2.6363636363636362,
+        "class_count": 4.0,
+        "class_gini_impurity": 0.7226012483669617,
+        "correlation_spectrum_decay": 0.00013206322697523152,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 33.87839761352042,
+        "n": 83.0,
+        "p": 2308.0,
+        "p_over_n": 27.80722891566265
+      },
+      "n_classes": 4,
+      "n_features": 2308,
+      "n_samples": 83,
+      "profile_scores": {
+        "a_control": 0.9814814814814815,
+        "d_default": 0.9861111111111112,
+        "v16_multiomics": 1.0,
+        "v16_ref": 0.9969135802469137
+      }
+    },
+    {
+      "best_profile": "d_default",
+      "data_source": "mat_url:https://jundongl.github.io/scikit-feature/OLD/datasets/TOX-171.mat",
+      "dataset_id": "tox_171",
+      "meta_features": {
+        "class_balance_entropy": 0.9987660324078427,
+        "class_balance_ratio": 1.1538461538461537,
+        "class_count": 4.0,
+        "class_gini_impurity": 0.7491535857186826,
+        "correlation_spectrum_decay": 0.00014528817941281393,
+        "heaping_fraction": 0.0,
+        "max_feature_variance": 66657424.29427847,
+        "n": 171.0,
+        "p": 5748.0,
+        "p_over_n": 33.6140350877193
+      },
+      "n_classes": 4,
+      "n_features": 5748,
+      "n_samples": 171,
+      "profile_scores": {
+        "a_control": 0.8518518518518517,
+        "d_default": 0.8557098765432098,
+        "v16_multiomics": 0.8545524691358024,
+        "v16_ref": 0.842335390946502
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "openml:{'name': '11_Tumors', 'version': 1}",
+      "dataset_id": "tumor11_su",
+      "meta_features": {
+        "class_balance_entropy": 0.9492372571620671,
+        "class_balance_ratio": 4.5,
+        "class_count": 11.0,
+        "class_gini_impurity": 0.8871713568503105,
+        "correlation_spectrum_decay": 0.00016464430105375555,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 68661951.62447678,
+        "n": 174.0,
+        "p": 12533.0,
+        "p_over_n": 72.02873563218391
+      },
+      "n_classes": 11,
+      "n_features": 12533,
+      "n_samples": 174,
+      "profile_scores": {
+        "a_control": 0.9387205387205388,
+        "d_default": 0.9387205387205388,
+        "v16_multiomics": 0.8409090909090908,
+        "v16_ref": 0.8262626262626264
+      }
+    },
+    {
+      "best_profile": "v16_ref",
+      "data_source": "openml:{'name': '9_Tumors', 'version': 1}",
+      "dataset_id": "tumor9_openml",
+      "meta_features": {
+        "class_balance_entropy": 0.9763811508245539,
+        "class_balance_ratio": 4.5,
+        "class_count": 9.0,
+        "class_gini_impurity": 0.8794444444444445,
+        "correlation_spectrum_decay": 0.000149195266047602,
+        "heaping_fraction": 1.0,
+        "max_feature_variance": 34535184.81666667,
+        "n": 60.0,
+        "p": 5726.0,
+        "p_over_n": 95.43333333333334
+      },
+      "n_classes": 9,
+      "n_features": 5726,
+      "n_samples": 60,
+      "profile_scores": {
+        "a_control": 0.3958333333333333,
+        "d_default": 0.4513888888888889,
+        "v16_multiomics": 0.3819444444444444,
+        "v16_ref": 0.47222222222222215
+      }
+    },
+    {
+      "best_profile": "v16_ref",
+      "data_source": "manual_npz:train_data/extended/xena_tcga_coad_cms.npz",
+      "dataset_id": "xena_tcga_coad_cms",
+      "meta_features": {
+        "class_balance_entropy": 0.5314929290748618,
+        "class_balance_ratio": 7.282051282051282,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.21232830756548982,
+        "correlation_spectrum_decay": 0.0001739052920484176,
+        "heaping_fraction": 0.023429128105211885,
+        "max_feature_variance": 28.686224463491712,
+        "n": 323.0,
+        "p": 20530.0,
+        "p_over_n": 63.56037151702786
+      },
+      "n_classes": 2,
+      "n_features": 20530,
+      "n_samples": 323,
+      "profile_scores": {
+        "a_control": 0.7102826510721247,
+        "d_default": 0.7066276803118908,
+        "v16_multiomics": 0.7238060428849902,
+        "v16_ref": 0.7354613385315139
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "manual_npz:train_data/extended/xena_tcga_gbm.npz",
+      "dataset_id": "xena_tcga_gbm",
+      "meta_features": {
+        "class_balance_entropy": 0.9800298426937833,
+        "class_balance_ratio": 1.9642857142857142,
+        "class_count": 4.0,
+        "class_gini_impurity": 0.7362433075550268,
+        "correlation_spectrum_decay": 0.00016654598686306827,
+        "heaping_fraction": 0.025572333170969314,
+        "max_feature_variance": 18.13549785166341,
+        "n": 164.0,
+        "p": 20530.0,
+        "p_over_n": 125.1829268292683
+      },
+      "n_classes": 4,
+      "n_features": 20530,
+      "n_samples": 164,
+      "profile_scores": {
+        "a_control": 0.6749789562289563,
+        "d_default": 0.6647727272727273,
+        "v16_multiomics": 0.6749263468013469,
+        "v16_ref": 0.6329615600448933
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "manual_npz:train_data/extended/xena_tcga_lgg.npz",
+      "dataset_id": "xena_tcga_lgg",
+      "meta_features": {
+        "class_balance_entropy": 0.9862490898467834,
+        "class_balance_ratio": 1.4776119402985075,
+        "class_count": 3.0,
+        "class_gini_impurity": 0.6570588298355138,
+        "correlation_spectrum_decay": 0.00017457835988241548,
+        "heaping_fraction": 0.014856307842182172,
+        "max_feature_variance": 30.812788099877423,
+        "n": 529.0,
+        "p": 20530.0,
+        "p_over_n": 38.80907372400756
+      },
+      "n_classes": 3,
+      "n_features": 20530,
+      "n_samples": 529,
+      "profile_scores": {
+        "a_control": 0.5601034082515564,
+        "d_default": 0.5428220955998734,
+        "v16_multiomics": 0.5463279518835074,
+        "v16_ref": 0.5530020048538566
+      }
+    },
+    {
+      "best_profile": "a_control",
+      "data_source": "manual_npz:train_data/extended/xena_tcga_skcm.npz",
+      "dataset_id": "xena_tcga_skcm",
+      "meta_features": {
+        "class_balance_entropy": 0.7569045545818462,
+        "class_balance_ratio": 3.5825242718446604,
+        "class_count": 2.0,
+        "class_gini_impurity": 0.34120044527434645,
+        "correlation_spectrum_decay": 0.00020884647837913817,
+        "heaping_fraction": 0.01475888943010229,
+        "max_feature_variance": 30.126722801059742,
+        "n": 472.0,
+        "p": 20530.0,
+        "p_over_n": 43.49576271186441
+      },
+      "n_classes": 2,
+      "n_features": 20530,
+      "n_samples": 472,
+      "profile_scores": {
+        "a_control": 0.8668668668668669,
+        "d_default": 0.8566423566423567,
+        "v16_multiomics": 0.8581617331617332,
+        "v16_ref": 0.8469302635969301
+      }
+    }
+  ],
+  "schema_version": 1,
+  "sources": {
+    "val14_root": "run_artifacts/validation-14/val14_3hosts_live_20260301_223239",
+    "val15_root": "run_artifacts/validation-15/val15_rerun_3hosts_merged_20260305_124113"
+  },
+  "summary": {
+    "best_profile_counts": {
+      "a_control": 16,
+      "d_default": 2,
+      "v16_multiomics": 10,
+      "v16_ref": 6
+    },
+    "n_records": 34,
+    "selector_evaluation": {
+      "decision_tree": {
+        "label_accuracy": 0.5588235294117647,
+        "n_datasets": 34,
+        "n_records": 34,
+        "per_dataset": [
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 1.0,
+            "dataset_id": "arcene_nips03",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.7800224466891134,
+            "static_v16_ref_balanced_accuracy": 0.7662738496071829
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "breast_vantveer",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.6677890011223345,
+            "static_v16_ref_balanced_accuracy": 0.64552936775159
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "carcinom_11class",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.9127946127946127,
+            "static_v16_ref_balanced_accuracy": 0.8404040404040405
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 1.0,
+            "dataset_id": "cll_sub_111",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.705050505050505,
+            "static_v16_ref_balanced_accuracy": 0.7627384960718294
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 1.0,
+            "dataset_id": "cns_pomeroy",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8055555555555556,
+            "static_v16_ref_balanced_accuracy": 0.5810185185185186
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.8888888888888888,
+            "dataset_id": "colon_alon",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8729166666666666,
+            "static_v16_ref_balanced_accuracy": 0.8837962962962962
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "cumida_brain_gse50161",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.9470017636684305,
+            "static_v16_ref_balanced_accuracy": 0.915461493239271
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "cumida_colorectal_gse44861",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.875,
+            "static_v16_ref_balanced_accuracy": 0.7961309523809524
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "cumida_gastric_gse54129",
+            "fallback_applied": false,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 1.0,
+            "static_v16_ref_balanced_accuracy": 1.0
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "cumida_leukemia_subtypes",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.8220699054032387,
+            "static_v16_ref_balanced_accuracy": 0.7783095505317726
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "cumida_renal_gse53757",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.9653439153439154,
+            "static_v16_ref_balanced_accuracy": 0.9601410934744269
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "dlbcl_shipp",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8472222222222221,
+            "static_v16_ref_balanced_accuracy": 0.8626543209876543
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 1.0,
+            "dataset_id": "dorothea_nips03",
+            "fallback_applied": false,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.6432321757992256,
+            "static_v16_ref_balanced_accuracy": 0.6432321757992256
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "gcm_ramaswamy",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.564021164021164,
+            "static_v16_ref_balanced_accuracy": 0.5095238095238095
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "gli_85",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.8787037037037037,
+            "static_v16_ref_balanced_accuracy": 0.8512345679012346
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 1.0,
+            "dataset_id": "glioma_50_4class",
+            "fallback_applied": false,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.6851851851851852,
+            "static_v16_ref_balanced_accuracy": 0.6851851851851852
+          },
+          {
+            "best_profile": "d_default",
+            "confidence": 1.0,
+            "dataset_id": "leukemia_1_72_3class",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.9419753086419753,
+            "static_v16_ref_balanced_accuracy": 0.931275720164609
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.5,
+            "dataset_id": "leukemia_golub",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.9444444444444445,
+            "static_v16_ref_balanced_accuracy": 0.9444444444444445
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 1.0,
+            "dataset_id": "lymphoma_3",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.9796296296296296,
+            "static_v16_ref_balanced_accuracy": 0.9888888888888889
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.75,
+            "dataset_id": "lymphoma_9",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8902777777777777,
+            "static_v16_ref_balanced_accuracy": 0.8416666666666667
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.75,
+            "dataset_id": "madelon_nips03",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.6519230769230769,
+            "static_v16_ref_balanced_accuracy": 0.5928774928774928
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 1.0,
+            "dataset_id": "nci60_strict_holdout",
+            "fallback_applied": false,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.4246913580246913,
+            "static_v16_ref_balanced_accuracy": 0.4246913580246913
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.5,
+            "dataset_id": "nci9_60_9class",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.4930555555555556,
+            "static_v16_ref_balanced_accuracy": 0.4930555555555556
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "nci_61_8class",
+            "fallback_applied": false,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.638888888888889,
+            "static_v16_ref_balanced_accuracy": 0.638888888888889
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "ovarian_petricoin",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.995230078563412,
+            "static_v16_ref_balanced_accuracy": 0.995230078563412
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 1.0,
+            "dataset_id": "prostate_singh",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.9090909090909091,
+            "static_v16_ref_balanced_accuracy": 0.9276094276094277
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.75,
+            "dataset_id": "srbct_khan",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 1.0,
+            "static_v16_ref_balanced_accuracy": 0.9969135802469137
+          },
+          {
+            "best_profile": "d_default",
+            "confidence": 0.875,
+            "dataset_id": "tox_171",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8545524691358024,
+            "static_v16_ref_balanced_accuracy": 0.842335390946502
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "tumor11_su",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.9387205387205388,
+            "static_v16_ref_balanced_accuracy": 0.8262626262626264
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.5,
+            "dataset_id": "tumor9_openml",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.47222222222222215,
+            "static_v16_ref_balanced_accuracy": 0.47222222222222215
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 1.0,
+            "dataset_id": "xena_tcga_coad_cms",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.7238060428849902,
+            "static_v16_ref_balanced_accuracy": 0.7354613385315139
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "xena_tcga_gbm",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.6749789562289563,
+            "static_v16_ref_balanced_accuracy": 0.6329615600448933
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "xena_tcga_lgg",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.5601034082515564,
+            "static_v16_ref_balanced_accuracy": 0.5530020048538566
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 1.0,
+            "dataset_id": "xena_tcga_skcm",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.8668668668668669,
+            "static_v16_ref_balanced_accuracy": 0.8469302635969301
+          }
+        ],
+        "routed_mean_ba": 0.7921284222081519,
+        "routed_minus_v16_ref": 0.022529856735724718,
+        "static_v16_ref_mean_ba": 0.7695985654724272
+      },
+      "logistic": {
+        "label_accuracy": 0.29411764705882354,
+        "n_datasets": 34,
+        "n_records": 34,
+        "per_dataset": [
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.28755422119093904,
+            "dataset_id": "arcene_nips03",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.7662738496071829,
+            "static_v16_ref_balanced_accuracy": 0.7662738496071829
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.4052014572671266,
+            "dataset_id": "breast_vantveer",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.64552936775159,
+            "static_v16_ref_balanced_accuracy": 0.64552936775159
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.3086482514617205,
+            "dataset_id": "carcinom_11class",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.8404040404040405,
+            "static_v16_ref_balanced_accuracy": 0.8404040404040405
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.9999999999999865,
+            "dataset_id": "cll_sub_111",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8338383838383838,
+            "static_v16_ref_balanced_accuracy": 0.7627384960718294
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.3573711857261265,
+            "dataset_id": "cns_pomeroy",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.5810185185185186,
+            "static_v16_ref_balanced_accuracy": 0.5810185185185186
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.3183082749228905,
+            "dataset_id": "colon_alon",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.8837962962962962,
+            "static_v16_ref_balanced_accuracy": 0.8837962962962962
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.6142813785815591,
+            "dataset_id": "cumida_brain_gse50161",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.9470017636684305,
+            "static_v16_ref_balanced_accuracy": 0.915461493239271
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.3838658703784311,
+            "dataset_id": "cumida_colorectal_gse44861",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.7961309523809524,
+            "static_v16_ref_balanced_accuracy": 0.7961309523809524
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.6101216994883392,
+            "dataset_id": "cumida_gastric_gse54129",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 1.0,
+            "static_v16_ref_balanced_accuracy": 1.0
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.3122319915909244,
+            "dataset_id": "cumida_leukemia_subtypes",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.7783095505317726,
+            "static_v16_ref_balanced_accuracy": 0.7783095505317726
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.9628787386822161,
+            "dataset_id": "cumida_renal_gse53757",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.9653439153439154,
+            "static_v16_ref_balanced_accuracy": 0.9601410934744269
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.3365970784098977,
+            "dataset_id": "dlbcl_shipp",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.8626543209876543,
+            "static_v16_ref_balanced_accuracy": 0.8626543209876543
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.9999999999992919,
+            "dataset_id": "dorothea_nips03",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.6484420928865373,
+            "static_v16_ref_balanced_accuracy": 0.6432321757992256
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.34409517328325795,
+            "dataset_id": "gcm_ramaswamy",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.5095238095238095,
+            "static_v16_ref_balanced_accuracy": 0.5095238095238095
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.7774375984941795,
+            "dataset_id": "gli_85",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8462962962962963,
+            "static_v16_ref_balanced_accuracy": 0.8512345679012346
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.2683959498005856,
+            "dataset_id": "glioma_50_4class",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.6851851851851852,
+            "static_v16_ref_balanced_accuracy": 0.6851851851851852
+          },
+          {
+            "best_profile": "d_default",
+            "confidence": 0.6511438629834155,
+            "dataset_id": "leukemia_1_72_3class",
+            "fallback_applied": false,
+            "predicted_profile": "a_control",
+            "routed_balanced_accuracy": 0.9308641975308642,
+            "static_v16_ref_balanced_accuracy": 0.931275720164609
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.355984221742251,
+            "dataset_id": "leukemia_golub",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.9444444444444445,
+            "static_v16_ref_balanced_accuracy": 0.9444444444444445
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.26137573099209277,
+            "dataset_id": "lymphoma_3",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.9888888888888889,
+            "static_v16_ref_balanced_accuracy": 0.9888888888888889
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.2836463321666856,
+            "dataset_id": "lymphoma_9",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.8416666666666667,
+            "static_v16_ref_balanced_accuracy": 0.8416666666666667
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.25186546958305284,
+            "dataset_id": "madelon_nips03",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.5928774928774928,
+            "static_v16_ref_balanced_accuracy": 0.5928774928774928
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.3238724585614282,
+            "dataset_id": "nci60_strict_holdout",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.4246913580246913,
+            "static_v16_ref_balanced_accuracy": 0.4246913580246913
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.30542998095511775,
+            "dataset_id": "nci9_60_9class",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.4930555555555556,
+            "static_v16_ref_balanced_accuracy": 0.4930555555555556
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.3102416539836705,
+            "dataset_id": "nci_61_8class",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.638888888888889,
+            "static_v16_ref_balanced_accuracy": 0.638888888888889
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.33085044262323926,
+            "dataset_id": "ovarian_petricoin",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.995230078563412,
+            "static_v16_ref_balanced_accuracy": 0.995230078563412
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.36555037940751184,
+            "dataset_id": "prostate_singh",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.9276094276094277,
+            "static_v16_ref_balanced_accuracy": 0.9276094276094277
+          },
+          {
+            "best_profile": "v16_multiomics",
+            "confidence": 0.28329845938057946,
+            "dataset_id": "srbct_khan",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.9969135802469137,
+            "static_v16_ref_balanced_accuracy": 0.9969135802469137
+          },
+          {
+            "best_profile": "d_default",
+            "confidence": 0.6452094094949462,
+            "dataset_id": "tox_171",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.8545524691358024,
+            "static_v16_ref_balanced_accuracy": 0.842335390946502
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.32857531746939395,
+            "dataset_id": "tumor11_su",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.8262626262626264,
+            "static_v16_ref_balanced_accuracy": 0.8262626262626264
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.3174406267073784,
+            "dataset_id": "tumor9_openml",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.47222222222222215,
+            "static_v16_ref_balanced_accuracy": 0.47222222222222215
+          },
+          {
+            "best_profile": "v16_ref",
+            "confidence": 0.3888187263232129,
+            "dataset_id": "xena_tcga_coad_cms",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.7354613385315139,
+            "static_v16_ref_balanced_accuracy": 0.7354613385315139
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.3502974093044729,
+            "dataset_id": "xena_tcga_gbm",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.6329615600448933,
+            "static_v16_ref_balanced_accuracy": 0.6329615600448933
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.6197322037787438,
+            "dataset_id": "xena_tcga_lgg",
+            "fallback_applied": false,
+            "predicted_profile": "v16_multiomics",
+            "routed_balanced_accuracy": 0.5463279518835074,
+            "static_v16_ref_balanced_accuracy": 0.5530020048538566
+          },
+          {
+            "best_profile": "a_control",
+            "confidence": 0.4759262162393518,
+            "dataset_id": "xena_tcga_skcm",
+            "fallback_applied": true,
+            "predicted_profile": "v16_ref",
+            "routed_balanced_accuracy": 0.8469302635969301,
+            "static_v16_ref_balanced_accuracy": 0.8469302635969301
+          }
+        ],
+        "routed_mean_ba": 0.7729293339469209,
+        "routed_minus_v16_ref": 0.0033307684744936505,
+        "static_v16_ref_mean_ba": 0.7695985654724272
+      }
+    },
+    "skipped_datasets": [
+      {
+        "dataset_id": "hf_breast_ge_mubashir1837",
+        "reason": "DatasetIntegrityPolicyError"
+      }
+    ]
+  }
+}
