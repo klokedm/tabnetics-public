@@ -1,0 +1,61 @@
+---
+---
+:root {
+  --tnk-sand: #f7f4ec;
+  --tnk-ink: #10212b;
+  --tnk-accent: #0f766e;
+  --tnk-accent-strong: #115e59;
+  --tnk-accent-soft: #dff4ef;
+  --tnk-line: #c7d8d4;
+}
+
+body {
+  background: linear-gradient(180deg, #fbfaf6 0%, var(--tnk-sand) 100%);
+  color: var(--tnk-ink);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.site-header,
+.side-bar {
+  background: linear-gradient(180deg, #f4efe3 0%, #f9f7f1 100%);
+}
+
+.site-title,
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  font-family: "Iowan Old Style", "Palatino Linotype", serif;
+}
+
+.main-content a,
+.nav-list .nav-list-link.active {
+  color: var(--tnk-accent-strong);
+}
+
+.main-content a:hover,
+.site-button:hover {
+  color: var(--tnk-accent);
+}
+
+.main-content h2,
+.main-content h3 {
+  border-bottom: 1px solid var(--tnk-line);
+  padding-bottom: 0.2rem;
+}
+
+.main-content blockquote {
+  border-left: 4px solid var(--tnk-accent);
+  background: rgba(223, 244, 239, 0.55);
+}
+
+.main-content code {
+  border-radius: 0.2rem;
+}
+
+.main-content pre {
+  border: 1px solid var(--tnk-line);
+}
+
+.main-content .anchor-heading svg {
+  color: var(--tnk-accent);
+}
