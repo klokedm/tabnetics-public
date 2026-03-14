@@ -1,0 +1,23 @@
+title: "Tabnetics"
+description: "HDLSS tabular learning with distribution-aware preprocessing and MNPO feature portfolios."
+url: "https://tabnetics.org"
+baseurl: ""
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+search_enabled: true
+heading_anchors: true
+nav_sort: case_insensitive
+back_to_top: true
+back_to_top_text: Back to top
+aux_links:
+  GitHub repository:
+    - "https://github.com/klokedm/tabnetics-public"
+  PyPI package:
+    - "https://pypi.org/project/tabnetics/"
+  Discussions:
+    - "https://github.com/klokedm/tabnetics-public/discussions"
+  Contact:
+    - "mailto:marko@tabnetics.org"
+aux_links_new_tab: true
+footer_content: "Tabnetics · Questions and feedback: <a href='mailto:marko@tabnetics.org'>marko@tabnetics.org</a> · Source on GitHub and PyPI."
