@@ -1,0 +1,1 @@
+"""Validation planning, suite, and shard execution surface behind ``tabnetics-validation-plan``, ``tabnetics-validation-shard``, and ``tabnetics-validation-suite``; evidence-bearing runs use the HuggingFace bundle as the authoritative operational mirror of the public upstream datasets and default to ``dataset_integrity_policy="error"``."""
