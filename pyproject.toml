@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=82.0.0", "wheel>=0.46.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tabnetics"
+version = "0.5.3"
+description = "HDLSS-focused tabular learning toolkit with distribution-aware preprocessing, portfolio feature selection, and game-theoretic method aggregation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Marko Kokol", email = "marko@kokol.dev" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["feature-selection", "hdlss", "tabular", "bioinformatics", "distribution-fitting", "mnpo"]
+
+dependencies = [
+  "numpy>=2.4.2",
+  "pandas>=3.0.1",
+  "scipy>=1.17.1",
+  "scikit-learn>=1.8.0",
+  "boruta>=0.4.3",
+  "catboost>=1.2.10",
+  "datasets>=4.6.1",
+  "flaml>=2.5.0",
+  "lightgbm>=4.6.0",
+  "mapie>=1.3.0",
+  "optuna>=4.0.0",
+  "pytabkit>=1.7.3",
+  "pyvinecopulib>=0.7.5",
+  "shap>=0.46.0",
+  "statsmodels>=0.14.4",
+  "threadpoolctl>=3.6.0",
+  "torch>=2.10.0",
+  "tqdm>=4.67.3",
+  "xgboost>=3.2.0",
+]
+
+[project.urls]
+Homepage = "https://tabnetics.org"
+Repository = "https://github.com/klokedm/tabnetics-public"
+Documentation = "https://tabnetics.org"
+"Release Notes" = "https://tabnetics.org/#whats-new-in-053"
+
+[project.optional-dependencies]
+full = [
+  "tabpfn>=6.4.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["tabnetics*"]
