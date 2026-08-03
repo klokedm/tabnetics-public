@@ -1,0 +1,87 @@
+"""Stable DF+FS pipeline surface with the promoted leakage-safe FS->DF workflow (``df_stage_position="after_fs"``), so distribution fitting operates on the feature space that survives selection rather than the full raw matrix."""
+
+from .config import (
+    ClassificationConfig,
+    DFFSConfig,
+    DistributionFitterConfig,
+    TrainingBalanceConfig,
+)
+from .balancing import (
+    TRAINING_BALANCE_METHODS,
+    TRAINING_BALANCE_SCHEMA_VERSION,
+    TrainingBalanceContractError,
+    TrainingBalanceProvenance,
+    TrainingBalanceResult,
+    apply_training_balance,
+)
+from .resampling import (
+    FitResamplingContext,
+    LeakageAudit,
+    ResolvedSplit,
+    ResolvedSplitPlan,
+    ResamplingContractError,
+    ResamplingPolicy,
+    SplitAssignment,
+    resolve_assignment,
+    resolve_cv,
+    resolve_holdout,
+    resolve_leave_one_source_out,
+)
+from .pipeline import (
+    DistributionFeatureSelectionPipeline,
+    FittedPipelineComponents,
+    IncompleteFeatureSelectionError,
+)
+from .estimator import DFFSClassifier
+from .bundle import (
+    DFFSSafeBundleError,
+    SAFE_DFFS_BUNDLE_ARTIFACT,
+    SAFE_DFFS_BUNDLE_SCHEMA_VERSION,
+    SAFE_DFFS_BUNDLE_TRUST_MODE,
+    SAFE_DFFS_ROUTE_ID,
+    SafeBundleIntegrityError,
+    SafeBundleSchemaError,
+    SafeDFFSInferenceModel,
+    UnsupportedSafeBundleStateError,
+    create_safe_dffs_bundle,
+    load_safe_dffs_bundle,
+)
+
+__all__ = [
+    "ClassificationConfig",
+    "DFFSSafeBundleError",
+    "DFFSClassifier",
+    "DFFSConfig",
+    "DistributionFitterConfig",
+    "DistributionFeatureSelectionPipeline",
+    "FittedPipelineComponents",
+    "IncompleteFeatureSelectionError",
+    "FitResamplingContext",
+    "LeakageAudit",
+    "ResolvedSplit",
+    "ResolvedSplitPlan",
+    "ResamplingContractError",
+    "ResamplingPolicy",
+    "SAFE_DFFS_BUNDLE_ARTIFACT",
+    "SAFE_DFFS_BUNDLE_SCHEMA_VERSION",
+    "SAFE_DFFS_BUNDLE_TRUST_MODE",
+    "SAFE_DFFS_ROUTE_ID",
+    "SafeBundleIntegrityError",
+    "SafeBundleSchemaError",
+    "SafeDFFSInferenceModel",
+    "SplitAssignment",
+    "TRAINING_BALANCE_METHODS",
+    "TRAINING_BALANCE_SCHEMA_VERSION",
+    "TrainingBalanceConfig",
+    "TrainingBalanceContractError",
+    "TrainingBalanceProvenance",
+    "TrainingBalanceResult",
+    "UnsupportedSafeBundleStateError",
+    "create_safe_dffs_bundle",
+    "apply_training_balance",
+    "load_safe_dffs_bundle",
+    "resolve_assignment",
+    "resolve_cv",
+    "resolve_holdout",
+    "resolve_leave_one_source_out",
+]
